@@ -1,10 +1,13 @@
 (Python 3.10.14)
 
 conda create --name pytorchrecipes python=3.10
-conda activate pythonrecipes
+conda activate pytorchrecipes
 
 conda install -c peterjc123 pytorch
 python -c "import torch; print(torch.__version__)"
 
 pip install --upgrade pip
 pip install -r requirements.txt
+
+sudo apt-get install graphviz
+dot -V
